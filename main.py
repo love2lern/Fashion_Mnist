@@ -52,7 +52,7 @@ for i in range(25):
         plt.xlabel(label_names[label])
 plt.show()
 
-# Load training data from csv
+# Load testing data from csv
 with open('C:/Users/fatem/Downloads/Fashion MNist/fashion-mnist_test.csv') as csvfile:
     csvreader2 = csv.reader(csvfile)
     next(csvreader2)
@@ -78,7 +78,7 @@ for i in range(25):
         plt.xlabel(label_names[label])
 plt.show()
 
-# Should be <class 'keras.layers. Flatten'>
+# Should be <class 'keras.layers. Flatten'> !!
 print(type(Flatten))
 
 # Define the model architecture
